@@ -2,7 +2,7 @@ import express from "express";
 export const app = express();
 
 const httpServer = app.listen(8080,'0.0.0.0', async () => {
-    console.log(`Server running on port ${PORT}`);
+    console.log(`Server running on port 8080`);
 });
 
 app.use(express.json());
